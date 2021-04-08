@@ -3,11 +3,14 @@
 <head>
     <meta charset="utf-8">
     <title>Forms</title>
+    <link rel="stylesheet" href="site.css">
+
 </head>
 <body>
-<h1>Хьюстон</h1>
+<div style="width: 70%">
+<h1 style= "font-size: 32px" >Хьюстон</h1>
 <form>
-    <p><strong>Хьюстон</strong>(англ. Houston) — четвёртый по количеству жителей город в Соединённых Штатах Америки<br>
+    <p class="blocktext"><strong>Хьюстон</strong>(англ. Houston) — четвёртый по количеству жителей город в Соединённых Штатах Америки<br>
         и крупнейший город в штате Техас с населением 2 319 603 человека на 2017 год. Хьюстон является<br>
         административным центром округа Харрис, а также главным экономическим центром агломерации<br>
         Большого Хьюстона с общим населением 6 772 470 человек на 2016 год. Город располагается в 50<br>
@@ -24,7 +27,8 @@
         Важнейшими объектами для экономики и инфраструктуры города являются космический центр<br>
         имени Линдона Джонсона, крупнейший американский по международным грузоперевозкам порт,<br>
         хьюстонский судоходный канал, крупнейший в мире Техасский медицинский центр.<br>
-    <H1>Содержание</H1>
+
+    <H2>Содержание</H2>
     <ol>
         <li><a href="#History"> История </a></li>
         <ol>
@@ -45,18 +49,18 @@
             <li>Авиакосмическая промышленность</li>
         </ol>
     </ol>
-    <h1 id="History">История</h1>
+    <h2 id="History">История</h2>
     <strong id="Etim">Этимология, прозвища</strong>
     <figure>
         <img
+                class="displayed"
                 src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sam_Houston_portrait.jpg"
                 width="240"
-                  height="240"
+                height="240"
+                align="right"
         >
 
-        <figcaption>
-            Сэмюэл Хьюстон
-        </figcaption>
+        <figcaption>Сэмюэл Хьюстон</figcaption>
     </figure>
 
 
@@ -71,12 +75,15 @@
         населённый пункт. Они хотели, чтобы будущий город стал столицей Техаса и крупным торговым<br>
         центром.</p>
 
-    <h1 id="Osn">Основание</h1>
+    <h2 id="Osn">Основание</h2>
 
     <figure>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Allen%27s_Landing_Houston_bayou_view.jpg/1600px-Allen%27s_Landing_Houston_bayou_view.jpg"
+             alt= "Allen’s Landing — место, где был основан город"
              width="240"
              height="240"
+             align="right"
+
         >
         <figcaption>
             Allen’s Landing — место, где был основан город
@@ -89,15 +96,14 @@
         месяца население возросло до 1 500 человек. 5 июня 1837 года город был включён в округ Гаррисберг<br>
         (ныне Харрис) и стал временной столицей Республики Техас, которой оставался до 1839 года.<br>
         Первым мэром Хьюстона стал Джеймс Холман.<br></p>
-    <h1 id = "xxx">XX век</h1>
+    <h2 id = "xxx">XX век</h2>
     <figure>
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Main_Street_looking_south_Houston_Texas_%281908%29.jpg"
              width="240"
              height="240"
+             align="right"
         >
-        <figcaption>
-            Мэйн-Стрит в центре, 1908 год
-        </figcaption>
+        <figcaption>Мэйн-Стрит в центре, 1908 год</figcaption>
     </figure>
     <p>В 1900 году на Хьюстон обрушился Галвестонский ураган, продолжавшийся с 27 августа по 12<br>
         сентября. В пересчете на сегодняшний курс ущерб составил бы $526 млн, погибло 8 тысяч человек. В<br>
@@ -114,6 +120,14 @@
         США переместились в Хьюстон, что благоприятно отразилось на экономике города, одним из<br>
         поводов для переезда послужило массовое оснащение всех офисов кондиционерами.</p>
 
+
+    <table border="1", width="700">
+        <tr><th colspan="14"><strong>Дни с ясной и дождливой погодой в месяц(суммарнопо часам)</strong></th></tr>
+        <tr><th>Месяц</th><th>Янв</th><th>Фев</th><th>Мар</th><th>Апр</th><th>Май</th><th>Июнь</th><th>Июль</th><th>Авг</th><th>Сен</th><th>Окт</th><th>Ноя</th><th>Дек</th><th>Год</th></tr>
+        <tr><th><strong>Солнечное сияние, день</strong></th><th>10</th><th>10</th><th>9</th><th>8</th><th>8</th><th>8</th><th>10</th><th>9</th><th>7</th><th>7</th><th>8</th><th>9</th><th>106</th></tr>
+        <tr><th><strong>Дождь, день</strong></th><th>14</th><th>12</th><th>12</th><th>10</th><th>10</th><th>14</th><th>13</th><th>12</th><th>10</th><th>9</th><th>10</th><th>12</th><th>136</th></tr>
+    </table>
+</div>
 </form>
 </body>
 </html>
